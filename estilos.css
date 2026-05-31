@@ -4,9 +4,10 @@
 body {
     background-color: #FCF7FA;
     width: 1280px;
-    height: 1330px;
+    height: 1330px auto;
     min-height: 800px;
     margin: 0 auto;
+
 }
 
 
@@ -154,15 +155,144 @@ nav {
 
 .contenedor-cuadros {
     width: 960px;
-    height: 384px;
-    padding: 40px 16px;
+    height: 402px auto;
+    padding: 16px;
     display: flex;
 
+}
+
+h3 {
+    width: 928px;
+    height: 28px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1C0D12;
+    letter-spacing: 0px;
+    margin: 0;
+
+}
+
+.medio .cuadro {
+    width: 301px;
+    height: 370px;
+    padding: 16px;
+    gap: 12px;
+    padding-bottom: 12px;
+
+}
+
+.medio img {
+    width: 301px;
+    height: 301px;
+    border-radius: 8px;
+}
+
+.medio h4 {
+    width: 301px;
+    height: 24px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    font-size: 16px;
+    font-style: Medium;
+    line-height: 24px;
+    color: #1C0D12;
+    letter-spacing: 0px;
+    margin: 0;
+}
+
+.medio span {
+    width: 301px;
+    height: 21px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    font-style: Normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #994D5E;
+    letter-spacing: 0px;
+    margin: 0;
+}
+
+.testimonio {
+    width: 960px;
+    height: 40px auto;
+    padding-top: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+}
+
+.testimonio span {
+    width: 928px;
+    height: 24px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    font-style: Normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C0D12;
+    letter-spacing: 0px;
+    margin: 0;
 }
 
 
 footer {
     width: 1280px;
     height: 200px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
 
+.links {
+    width: 960px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.links a {
+    width: 160px;
+    height: 24px;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: #994D5E;
+    font-style: Normal;
+    font-family: Plus Jakarta Sans;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.redes-sociales {
+    width: 960px;
+    height: 24px;
+     display: flex;
+   gap: 16px;
+   justify-content: center;
+  
+}
+
+.redes-sociales img {
+    width: 24px;
+    height: 24px;
+    
+}
+
+footer p {
+    width: 960px;
+    height: 24px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #994D5E;
+    letter-spacing: 0px;
+    text-align: center;
 }
