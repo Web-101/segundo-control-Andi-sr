@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body {
+    background-color: #FCF7FA;
+    width: 1280px;
+    height: 1330px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+
+
+nav {
+    width: 1280px;
+    height: 65px;
+    border-bottom: 1px solid #E5E8EB;
+    padding: 12px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo img {
+    width: 16px;
+    height: 16px;
+}
+
+.logo p {
+    width: 123px;
+    height: 23px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Plus Jakarta Sans;
+    font-style: Bold;
+    color: #1C0D12;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.menu a {
+    width: 41px;
+    height: 21px;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    font-size: 14px;
+    color: #1C0D12;
+    font-style: Medium;
+    font-family: Plus Jakarta Sans;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+
+.menu button {
+    width: 20;
+    height: 20;
+    max-width: 480px;
+    gap: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    color: #F2E8EB
+}
+
+.menu img {
+    width: 20px;
+    height: 20px;
+}
+
+.contenedor-principal {
+    width: 1280px;
+    height: 1065px;
+    max-width: 960px;
+    padding: 20px 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Arriba {
+    width: 960px;
+    height: 384px;
+    padding: 40px 16px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.lado-izquierdo img {
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.Arriba h1 {
+    width: 490px;
+    height: 120px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 48px;
+    font-weight: 800;
+    font-style: ExtraBold;
+    line-height: 60px;
+    color: #1C0D12;
+    letter-spacing: -2px;
+    margin-bottom: 16px;
+    margin: 0;
+}
+
+.Arriba p {
+    width: 490px;
+    height: 96px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #1C0D12;
+}
+
+.Arriba button {
+
+    font-family: "Plus Jakarta Sans";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FCF7FA;
+
+    width: 480px;
+    height: 48px;
+    min-width: 84px;
+    max-width: 480px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background: #F0426E;
+    border: none;
+
+}
+
+.contenedor-cuadros {
+    width: 960px;
+    height: 384px;
+    padding: 40px 16px;
+    display: flex;
+
+}
+
+
+footer {
+    width: 1280px;
+    height: 200px;
+
+}
